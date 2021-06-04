@@ -1,2 +1,12 @@
+//Abstracts
+@import "abstracts/variables";
+
+//Base
+@import "base/reset";
+@import "base/typography";
+
+//Layout
+@import "layout/navigation";
+
 //Vendors
 @import "vendors/bootstrap-4.6.0/bootstrap.scss";
