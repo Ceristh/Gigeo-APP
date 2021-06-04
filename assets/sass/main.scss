@@ -1,14 +1,17 @@
-//Abstracts
+// Abstracts
 @import "abstracts/variables";
 
-//Base
+// Base
 @import "base/reset";
 @import "base/typography";
 
-//Layout
+// Components
+@import "components/thumbnails";
+
+// Layout
 @import "layout/header";
 @import "layout/navigation";
-@import "layout/thumbnails";
+@import "layout/section";
 
-//Vendors
+// Vendors
 @import "vendors/bootstrap-4.6.0/bootstrap.scss";
