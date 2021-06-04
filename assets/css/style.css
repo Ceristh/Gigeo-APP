@@ -4,6 +4,28 @@ body {
   margin: 0;
 }
 
+.btn {
+  border-radius: 0;
+}
+.btn-info {
+  background: #00b7c2;
+}
+.btn-danger {
+  background: #ff5f40;
+}
+
+.card {
+  border: 0;
+  padding-bottom: 1rem;
+}
+.card__container {
+  padding: 0.5rem 0;
+}
+.card__container h3 {
+  font-size: 22px;
+  margin-bottom: 0.2rem;
+}
+
 .user-info {
   display: flex;
   justify-content: center;
