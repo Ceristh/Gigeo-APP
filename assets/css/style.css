@@ -4,6 +4,18 @@ body {
   margin: 0;
 }
 
+a {
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+}
+
+section {
+  display: block;
+}
+
 .btn {
   border-radius: 0;
 }
@@ -15,7 +27,7 @@ body {
 }
 
 .card {
-  border: 0;
+  border: 0 !important;
   padding-bottom: 1rem;
 }
 .card__container {
@@ -97,7 +109,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #000000;
+  color: #000000 !important;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: #787878;
